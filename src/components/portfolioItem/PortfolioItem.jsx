@@ -9,7 +9,7 @@ const PortfolioItem = () => {
   return (
       <div className="pl">
  <div className="pl-texts">
-     <h1 className="pl-title"> Créer et Inspirer Par Ouss</h1>
+     <h1 className="pl-title"> Créer et Inspirer Par Fofana Ousseynou</h1>
  <p className="pl-desc">
      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni unde a ab aliquam esse dolorem saepe neque, fuga recusandae quis quo fugit, nesciunt cupiditate earum molestiae eum asperiores, ad architecto.
  </p>

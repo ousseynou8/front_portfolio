@@ -1,5 +1,5 @@
 .intro-bg {
-  clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   background-color: #426ca4;
   top: 0;
   right: 0;
