@@ -36,10 +36,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="vh-100 position-relative">
-      <div className="c-bg" />
-      <div className="row p-5 c-wrapper">
-        <div className="col-lg-6 mx-auto c-left">
+    <div className="container d-flex align-items-center vh-100">
+      <div className="row c-wrapper">
+        <div className="col-lg-6   c-left">
           <h1 className="display-3 w-30 c-title">
             Discutons de votre projet
           </h1>
@@ -65,7 +64,7 @@ const Contact = () => {
           <form className="form" ref={formRef} onSubmit={handleSubmit}>
             <div className="form-floating mb-3">
               <input
-                className="form-control"
+                className="form-control" required={true}
                 id="floatingInput"
                 style={{backgroundColor: darkMode && '#333'}}
                 type="text"
@@ -76,7 +75,7 @@ const Contact = () => {
             </div>
             <div className="form-floating mb-3">
               <input
-                className="form-control"
+                className="form-control" required={true}
                 style={{backgroundColor: darkMode && '#333'}}
                 type="text"
                 placeholder="Subject"
@@ -86,7 +85,7 @@ const Contact = () => {
             </div>
             <div className="form-floating mb-3">
               <input
-                className="form-control"
+                className="form-control" required={true}
                 style={{backgroundColor: darkMode && '#333'}}
                 type="email"
                 placeholder="Email"
@@ -96,7 +95,7 @@ const Contact = () => {
             </div>
             <div className="form-floating mb-3">
               <textarea
-                className="form-control"
+                className="form-control" required={true}
                 style={{backgroundColor: darkMode && '#333'}}
                 id="floatingTextarea"
                 name="message"
@@ -111,7 +110,7 @@ const Contact = () => {
             {done && 'merci pour votre message'}
           </form>
         </div>
-      </div>
+      </div>{' '}
     </div>
   );
 };
