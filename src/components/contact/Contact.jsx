@@ -2,21 +2,25 @@ import './contact.css';
 import Phone from '../../img/phone.png';
 import Email from '../../img/email.png';
 import Address from '../../img/address.png';
-import {useContext, useRef, useState} from 'react';
+import {useContext, useRef} from 'react';
 
 import emailjs from 'emailjs-com';
 import {ThemeContext} from '../../context';
 
+
 const Contact = () => {
+
+ // const [contact, setContact] = useState('nonmUser, emailUser, messageUser');
+
   const formRef = useRef ();
   const [done, setDone] = useState (false);
 
   const theme = useContext (ThemeContext);
   const darkMode = theme.state.darkMode;
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault ();
-
+    e.target.reset();
     emailjs
       .sendForm (
         'service_ayjuz2f',
@@ -34,6 +38,12 @@ const Contact = () => {
         }
       );
   };
+ 
+//   const handleChange = (e) => {
+//     console.log(e.target.value);
+//     setContact(e.target.value);
+// }
+
 
   return (
     <div className="container d-flex align-items-center vh-100">
@@ -61,7 +71,7 @@ const Contact = () => {
           <p className="c-desc">
             Contactez-Moi
           </p>
-          <form className="form" ref={formRef} onSubmit={handleSubmit}>
+          <form className="form" ref={formRef} onSubmit={handleSubmit.bind()}>
             <div className="form-floating mb-3">
               <input
                 className="form-control" required={true}
@@ -70,6 +80,8 @@ const Contact = () => {
                 type="text"
                 placeholder="Nom"
                 name="user_name"
+ 
+                
               />
               <label htmlFor="floatingInput">Nom</label>
             </div>
@@ -98,6 +110,7 @@ const Contact = () => {
                 className="form-control" required={true}
                 style={{backgroundColor: darkMode && '#333'}}
                 id="floatingTextarea"
+                
                 name="message"
                 placeholder="Message"
                 rows="5"
@@ -106,7 +119,7 @@ const Contact = () => {
 
             </div>
 
-            <button className="btn btn-primary" type="submit">Envoyer</button>
+            <input className="btn btn-primary" type="submit" value="Envoyer"/>
             {done && 'merci pour votre message'}
           </form>
         </div>
