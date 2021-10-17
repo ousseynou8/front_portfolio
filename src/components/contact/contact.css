@@ -51,7 +51,9 @@
 }
 
 /*  */
-
+form{
+  width: 80%;
+}
 .field {
   position: relative;
   margin: 40px 0 20px;
@@ -76,7 +78,7 @@ input {
   font-size: 18px;
   padding: 10px 10px 10px 5px;
   display: block;
-  width: 300px;
+  width: 100%;
   border: none;
   border-bottom: 2px solid #426ca4;
   transition: all 0.5s ease;
