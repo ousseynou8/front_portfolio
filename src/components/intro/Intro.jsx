@@ -1,23 +1,22 @@
-import './intro.css';
+import "./intro.css";
 import Me from "../../img/me.png";
 
 const Intro = () => {
   return (
-    <div className="container-fluid p-0">
-    <div className="row vh-100 intro">
-      <div className="col col-lg-6 d-flex align-items-center justify-content-center intro-left">
-        <div className="d-flex flex-column justify-content-space-around vh-100  intro-left-wrapper">
-          <h2 className="intro-hello">Hello, C'est </h2>
-          <h1 className="intro-name">Ousseynou</h1>
-          <div className="intro-title">
-            <div className="intro-title-wrapper">
-              <div className="intro-title-item">Integrateur</div>
-              <div className="intro-title-item">Développeur</div>
-              <div className="intro-title-item">Concepteur</div>
+    <div className="i">
+      <div className="i-left">
+        <div className="i-left-wrapper">
+          <h2 className="i-intro">Hello, Mon Nom est</h2>
+          <h1 className="i-name">Ousseynou FOFANA</h1>
+          <div className="i-title">
+            <div className="i-title-wrapper">
+              <div className="i-title-item">Developpeur Web</div>
+              <div className="i-title-item">Integrateur</div>
+              <div className="i-title-item">Concepteur</div>
             </div>
           </div>
-          <p className="intro-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, neque ex obcaecati excepturi, voluptas aliquam eum perferendis explicabo laborum odio nobis molestiae consequatur. Libero in amet voluptatum, repellendus doloremque facere.
+          <p className="i-desc">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, pariatur dolores. Sint libero optio ipsam, assumenda aut dolore ut sapiente vero sunt error, maiores porro itaque eligendi minima excepturi distinctio!
           </p>
         </div>
         <svg
@@ -26,7 +25,7 @@ const Intro = () => {
           viewBox="0 0 75 75"
           fill="none"
           stroke="black"
-          className="intro-scroll"
+          className="i-scroll"
           xmlns="http://www.w3.org/2000/svg"
         >
           <g id="scroll">
@@ -77,13 +76,11 @@ const Intro = () => {
           </g>
         </svg>
       </div>
-      <div className="col col-lg-6 position-relative intro-right">
-        <div className="w-100 h-100 position-absolute intro-bg"></div>
-<img src={Me} alt="" className="w-100 h-100 position-absolute intro-img" />
-
+      <div className="i-right">
+        <div className="i-bg"></div>
+        <img src={Me} alt="" className="i-img" />
       </div>
     </div>
-     </div>
   );
 };
 
