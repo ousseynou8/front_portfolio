@@ -16,10 +16,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_rrvnzco",
-        "template_3v5nih4",
+        "service_ayjuz2f",
+        "template_mfwsoa3",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "user_ZW5cdrDOgnAWxxaY8v66S"
       )
       .then(
         (result) => {
@@ -58,12 +58,28 @@ const Contact = () => {
              Contactez-Moi.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
+            <div className="field">
+            <input style={{backgroundColor: darkMode && "#333"}} type="text" id="name"  className="form-control" name="user_name" required />
+            <label  htmlFor="name" className="form-control-placeholder">Name</label>
+            </div>
+            <div className="field">
+            <input style={{backgroundColor: darkMode && "#333"}} type="text" id="subjet" className="form-control"  name="user_subject" required />
+            <label htmlFor="subjet"  className="form-control-placeholder">Subject</label>
+            </div>
+            <div className="field">
+              
+            <input style={{backgroundColor: darkMode && "#333"}} type="email" id="email"  className="form-control" name="user_email" required />
+            <label  htmlFor="email" className="form-control-placeholder">Email</label>
+            </div>
+            <div className="field">
+            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" id="message"  className="form-control"  name="message" required />
+            <label htmlFor="message"  className="form-control-placeholder">Message</label>
+            </div>
+        
+          
+          
             <button>Envoyer</button>
-            {done && "Thank you..."}
+            {done && "Merci Message envoyé..."}
           </form>
         </div>
       </div>
