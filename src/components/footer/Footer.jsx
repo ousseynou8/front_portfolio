@@ -23,7 +23,7 @@ const Footer = () => {
          
         </a>
         <a href="https://fofdesign.fr">
-          {' '}<i className="fab fa-facebook-square" />
+          {' '}<i className="fab fa-facebook-square" />facebook
         </a>
         <a href="https://fofdesign.fr">
           <i className="fab fa-facebook-square" />

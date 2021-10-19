@@ -3,6 +3,7 @@ import Portfolio from '../portfolio/Portfolio';
 import {portfolio} from '../../data';
 
 const PortfolioItem = () => {
+  console.log(portfolio);
   return (
     <div className="pl">
       <div className="pl-texts">
