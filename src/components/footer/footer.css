@@ -1,6 +1,6 @@
 .f{
     display:flex;
-    height:100vh;
+    height:50vh;
     background-color:burlywood;
     justify-content:space-between;
     flex-direction: column;
@@ -13,4 +13,11 @@ text-align: center;
 
 .f-r{
     flex: 1;
+    display:flex;
+    justify-content:space-evenly
+}
+
+.f-r svg{
+    width: 1.875em;
+    height: 1.875em;
 }

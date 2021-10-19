@@ -1,7 +1,7 @@
-.c {
-  height: 100vh;
- display: flex;
- justify-content:space-evenly;
+.contact {
+  height: 100% !important;  
+ justify-content:space-evenly !important;
+ padding: 3.125em 6.25em;
 }
 
 /* .c-bg {
@@ -12,7 +12,7 @@
 } */
 
 .c-wrapper {
-  padding: 3.125rem;
+ 
   display: flex;
   align-items: center;
 }
