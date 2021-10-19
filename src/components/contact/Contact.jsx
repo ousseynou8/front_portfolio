@@ -14,6 +14,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    e.target.reset();
     emailjs
       .sendForm(
         "service_ayjuz2f",

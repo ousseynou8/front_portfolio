@@ -1,0 +1,16 @@
+.f{
+    display:flex;
+    height:100vh;
+    background-color:burlywood;
+    justify-content:space-between;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.f-p{
+text-align: center;
+}
+
+.f-r{
+    flex: 1;
+}
