@@ -16,7 +16,7 @@
 }
 
 .i-left-wrapper {
-  padding: 50px;
+  padding: 3.125em;
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -24,16 +24,16 @@
 }
 
 .i-intro {
-  font-size: 30px;
+  font-size: 1.875em;
   font-weight: 300;
 }
 
 .i-name {
-  font-size: 60px;
+  font-size: 3.125em;
 }
 
 .i-title {
-  height: 50px;
+  height: 3.125em;
   overflow: hidden;
 }
 
@@ -58,8 +58,8 @@
 }
 
 .i-title-item {
-  height: 50px;
-  font-size: 30px;
+  height: 3.125em;
+  font-size: 1.875em;
   font-weight: bold;
   color: #426ca4;
   display: flex;
@@ -67,10 +67,10 @@
 }
 
 .i-scroll {
-  width: 30px;
-  height: 30px;
+  width: 1.875em;
+  height: 1.875em;
   position: absolute;
-  bottom: 20px;
+  bottom: 1.25em;
 }
 
 .i-img {
@@ -95,10 +95,17 @@
   .i {
     flex-direction: column;
   }
-
+  .i-name {
+    font-size:1.875em;
+  }
+  .i-title-item {
+  
+    font-size: 0.938em;
+    
+  }
   .i-left-wrapper {
   
-    padding: 10px;
+    padding: 0.625em;
     align-items: center;
     justify-content: center;
     text-align: center;
