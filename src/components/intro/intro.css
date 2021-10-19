@@ -59,7 +59,7 @@
 
 .i-title-item {
   height: 3.125em;
-  font-size: 1.875em;
+  font-size: 30px;
   font-weight: bold;
   color: #426ca4;
   display: flex;
@@ -70,7 +70,7 @@
   width: 1.875em;
   height: 1.875em;
   position: absolute;
-  bottom: 1.25em;
+  bottom: 20px;
 }
 
 .i-img {
@@ -95,17 +95,10 @@
   .i {
     flex-direction: column;
   }
-  .i-name {
-    font-size:1.875em;
-  }
-  .i-title-item {
-  
-    font-size: 0.938em;
-    
-  }
+
   .i-left-wrapper {
   
-    padding: 0.625em;
+    padding: 10px;
     align-items: center;
     justify-content: center;
     text-align: center;
