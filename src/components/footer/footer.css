@@ -1,12 +1,11 @@
 .f{
     display:flex;
-    height: 250px;
+    height:50vh;
     color:white;
     background-color: #426ca4;
     justify-content:space-between;
     flex-direction: column;
     padding: 3rem;
-    overflow: hidden;
 }
 
 .f-p{
@@ -33,7 +32,9 @@ text-align: center;
 
 
 @media screen and (max-width: 480px) {
-
+.f{
+    overflow: hidden;
+}
     .f-r{
        align-items: center;
        flex-direction: column;
