@@ -21,29 +21,14 @@ const Intro = () => {
           <p className="i-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, pariatur dolores. Sint libero optio ipsam, assumenda aut dolore ut sapiente vero sunt error, maiores porro itaque eligendi minima excepturi distinctio!
           </p>
-          <span className="cv">
-            Telecharger CV
-            <a href="https://github.com/">
-              <svg
-                aria-hidden="true"
-                width="30px"
-                focusable="false"
-                data-prefix="fas"
-                data-icon="download"
-                class="svg-inline--fa fa-download"
-                role="img"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  fill="currentColor"
-                  d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"
-                />
-              </svg>
+       
+          
+            <a href="img\alter_CV_2021-06-08_Ousseynou_Fofana.pdf" download="img/alter_CV_2021-06-08_Ousseynou_Fofana.pdf" className="btn" >
+                Télécharger CV
+            <svg aria-hidden="true" focusable="false" width="30px" height="20px" data-prefix="fas" data-icon="arrow-down" className="svg-inline--fa fa-arrow-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M374.6 310.6l-160 160C208.4 476.9 200.2 480 192 480s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 370.8V64c0-17.69 14.33-31.1 31.1-31.1S224 46.31 224 64v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0S387.1 298.1 374.6 310.6z"></path></svg>
 
             </a>
-
-          </span>
+ 
 
         </div>
         <svg

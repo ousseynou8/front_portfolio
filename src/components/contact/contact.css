@@ -1,7 +1,7 @@
 .contact {
   height: 100% !important;  
  justify-content:space-evenly !important;
- padding: 3.125em 6.25em;
+ padding: 3.125em 6.25em !important;
 }
 
 /* .c-bg {
@@ -11,17 +11,17 @@
   position: absolute;
 } */
 
-.c-wrapper {
+.contact-wrapper {
  
   display: flex;
   align-items: center;
 }
 
-.c-left {
+.contact-left {
   flex: 1;
 }
 
-.c-right {
+.contact-right {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -29,12 +29,12 @@
  
 }
 
-.c-title {
+.contact-title {
   font-size: 3.125rem;
   width: 80%;
 }
 
-.c-info-item {
+.contact-info-item {
   display: flex;
   align-items: center;
   margin: 3.125rem 0rem;
@@ -42,13 +42,13 @@
   width: 70%;
 }
 
-.c-icon {
-  width: 1.875rem;
-  height: 1.875rem;
-  margin-right: 1.25rem;
+.contact-icon{
+  width: 1.875rem !important;
+  height: 1.875rem !important;
+  margin-right: 1.25rem !important;
 }
 
-.c-desc {
+.contact-desc {
   font-weight: 200;
 }
 
@@ -129,24 +129,25 @@ button {
 }
 
 @media screen and (max-width: 480px) {
-  .c{
+  .contact{
     height: 100% !important;
+    padding:0 !important;
   }
-  .c-wrapper {
+  .contact-wrapper {
     flex-direction: column;
     padding: 50px;
   }
 
-  .c-title {
+  .contact-title {
     font-size: 1.875rem;
   }
 
-  .c-info-item {
+  .contact-info-item {
     margin: 20px 0px;
     width: 100%;
   }
 
-  .c-desc {
+  .contact-desc {
     display: none;
   }
 

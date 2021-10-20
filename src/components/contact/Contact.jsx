@@ -35,26 +35,26 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <div className="c-wrapper">
-        <div className="c-left">
-          <h1 className="c-title">Discutons de votre projet</h1>
-          <div className="c-info">
-            <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
+      <div className="contact-wrapper">
+        <div className="contact-left">
+          <h1 className="contact-title">Discutons de votre projet</h1>
+          <div className="contact-info">
+            <div className="contact-info-item">
+              <img src={Phone} alt="" className="contact-icon" />
               O7.53.58.87.59
             </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={Email} alt="" />
+            <div className="contact-info-item">
+              <img className="contact-icon" src={Email} alt="" />
               ousseynoufofana15@gmail.com
             </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={Address} alt="" />
+            <div className="contact-info-item">
+              <img className="contact-icon" src={Address} alt="" />
               Paris, France
             </div>
           </div>
         </div>
-        <div className="c-right">
-          <p className="c-desc">
+        <div className="contact-right">
+          <p className="contact-desc">
             Contactez-Moi.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>

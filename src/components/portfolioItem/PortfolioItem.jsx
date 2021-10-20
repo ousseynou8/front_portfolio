@@ -3,7 +3,8 @@ import Portfolio from '../portfolio/Portfolio';
 import {portfolio} from '../../data';
 
 const PortfolioItem = () => {
-  console.log(portfolio);
+ 
+ 
   return (
     <div className="pl">
       <div className="pl-texts">
@@ -14,8 +15,13 @@ const PortfolioItem = () => {
       </div>
       <div className="pl-list">
         {portfolio.map (item => (
-          <Portfolio key={item.id} img={item.img} link={item.link} />
+       
+          <Portfolio
+          
+          key={item.id} img={item.img} link={item.link} technology={item.technology}/>
+          
         ))}
+   
       </div>
     </div>
   );

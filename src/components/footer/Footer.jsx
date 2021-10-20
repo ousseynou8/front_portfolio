@@ -3,9 +3,11 @@ import './footer.css';
 const Footer = () => {
   return (
     <div className="f">
+ 
       <div className="f-r">
         <h3>Suivez moi sur les reseau sociaux</h3>
-        <div />
+
+     
 
         <a href="https://facebook.com/">
           <svg
@@ -13,7 +15,7 @@ const Footer = () => {
             focusable="false"
             data-prefix="fab"
             data-icon="facebook-f"
-            class="svg-inline--fa fa-facebook-f"
+            className="svg-inline--fa fa-facebook-f"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 320 512"
@@ -25,7 +27,7 @@ const Footer = () => {
           </svg>
         </a>
         <a href="http://linkedin.com/in/">
-        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M100.3 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.6 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path></svg>
+        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" className="svg-inline--fa fa-linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M100.3 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.6 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.3 61.9 111.3 142.3V448z"></path></svg>
         </a>
         <a href="https://twitter.com/">
           <svg
@@ -33,7 +35,7 @@ const Footer = () => {
             focusable="false"
             data-prefix="fab"
             data-icon="twitter"
-            class="svg-inline--fa fa-twitter"
+            className="svg-inline--fa fa-twitter"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
@@ -50,7 +52,7 @@ const Footer = () => {
             focusable="false"
             data-prefix="fab"
             data-icon="instagram"
-            class="svg-inline--fa fa-instagram"
+            className="svg-inline--fa fa-instagram"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -61,10 +63,10 @@ const Footer = () => {
             />
           </svg>
         </a>
-
+        <div />
       </div> <div className="f-p">
         <p>
-          Copyright &copy; Tous droits reserves
+          Copyright &copy; Tous droits reserves <a href="/">Fof Design</a>
 
         </p>
       </div>

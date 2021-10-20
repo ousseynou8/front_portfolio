@@ -1,6 +1,6 @@
 import './portfolio.css';
 
-const portfolio = ({img, link}) => {
+const portfolio = ({img, link, technology}) => {
   return (
     <div className="p">
       <div className="p-browser">
@@ -9,9 +9,10 @@ const portfolio = ({img, link}) => {
         <div className="p-circle" />
       </div>
       <a href={link} target="_blank" rel="noreferrer">
-        <img src={img} alt="" className="p-img" />
+        <img src={img} alt={img} className="p-img" />
       </a>
-    </div>
+<div>{technology}</div>
+    </div>  
   );
 };
 
