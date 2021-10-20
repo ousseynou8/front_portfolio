@@ -34,6 +34,7 @@ text-align: center;
 @media screen and (max-width: 480px) {
 .f{
     overflow: hidden;
+    height:100%;
 }
     .f-r{
        align-items: center;
