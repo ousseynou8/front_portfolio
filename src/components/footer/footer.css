@@ -1,4 +1,4 @@
-.f{
+.footer{
     display:flex;
     height:50vh;
     color:white;
@@ -8,35 +8,41 @@
     padding: 3rem;
 }
 
-.f-p{
+.footer-copyright{
 text-align: center;
 }
-.f-p a{
+.footer-copyright a{
     text-decoration: none;
     color:black;
 }
-.f-r{
+.footer-reseau-lien{
     flex: 1;
     display:flex;
     justify-content:space-evenly
 }
+.footer-reseau{
+    flex: 1;
+    display:flex;
+    justify-content:space-between;
+}
 
-.f-r svg{
+
+.footer-reseau svg{
     width: 1.875em;
     height: 1.875em;
 }
 
-.f path{
+.footer path{
     color:white;
 }
 
 
 @media screen and (max-width: 480px) {
-.f{
+.footer{
     overflow: hidden;
     height:100%;
 }
-    .f-r{
+    .footer-reseau{
        align-items: center;
        flex-direction: column;
     }

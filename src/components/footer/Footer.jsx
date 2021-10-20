@@ -2,12 +2,14 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <div className="f">
+    <div className="footer">
  
-      <div className="f-r">
+      <div className="footer-reseau">
         <h3>Suivez moi sur les reseau sociaux</h3>    
 
-        <a href="https://facebook.com/">
+    
+        <div className="footer-reseau-lien">
+              <a href="https://facebook.com/">
           <svg
             aria-hidden="true"
             focusable="false"
@@ -61,8 +63,8 @@ const Footer = () => {
             />
           </svg>
         </a>
-        <div />
-      </div> <div className="f-p">
+        </div>
+      </div> <div className="footer-copyright">
         <p>
           Copyright &copy; Tous droits reserves <a href="/">Fof Design</a>
 
