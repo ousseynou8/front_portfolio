@@ -5,9 +5,7 @@ const Footer = () => {
     <div className="f">
  
       <div className="f-r">
-        <h3>Suivez moi sur les reseau sociaux</h3>
-
-     
+        <h3>Suivez moi sur les reseau sociaux</h3>    
 
         <a href="https://facebook.com/">
           <svg
