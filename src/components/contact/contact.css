@@ -117,6 +117,7 @@ textarea {
   font-size: 14px;
   padding-left: 10px;
   border: 1px solid #426ca4;
+  resize: none;
 }
 
 button {
