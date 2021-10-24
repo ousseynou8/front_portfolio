@@ -25,7 +25,7 @@ export const portfolio = [
   {
     id: 4,
     img: topgaming,
-    link: "http://fofdesign.fr",
+    link: "https://github.com/ousseynou8/top_gaming_ouss_front",
     technology:"css"
   },
   {
