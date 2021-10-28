@@ -3,6 +3,10 @@
  justify-content:space-evenly !important;
  padding: 3.125em 6.25em !important;
 }
+.contact a {
+  text-decoration: none;
+  color: black;
+}
 
 /* .c-bg {
   width: 20px;

@@ -40,12 +40,18 @@ const Contact = () => {
           <h1 className="contact-title">Discutons de votre projet</h1>
           <div className="contact-info">
             <div className="contact-info-item">
-              <img src={Phone} alt="" className="contact-icon" />
-              O7.53.58.87.59
+              {' '}  <a href="tel:O7.53.58.87.59">
+                <img src={Phone} alt="" className="contact-icon" />
+
+                O7.53.58.87.59
+              </a>
             </div>
             <div className="contact-info-item">
-              <img className="contact-icon" src={Email} alt="" />
-              ousseynoufofana15@gmail.com
+              {' '}<a href="mailto:ousseynoufofana15@gmail.com">
+                <img className="contact-icon" src={Email} alt="" />
+
+                ousseynoufofana15@gmail.com
+              </a>
             </div>
             <div className="contact-info-item">
               <img className="contact-icon" src={Address} alt="" />
