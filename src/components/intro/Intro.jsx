@@ -19,7 +19,7 @@ const Intro = () => {
           </div>
           <p className="i-desc">
 
-Passionné par l'informatique le numérique en generale depuis mon enfance. je transforme votre marquette .....            
+Passionné par l'informatique le numérique en generale depuis mon enfance. je transforme votre maquette .....            
           </p>
 
           <a
