@@ -21,10 +21,23 @@ const About = () => {
           readable content.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+        Passionné par le numérique depuis mon enfance.
+            En commençant au Sénégal, j'ai suivi pendant 2 ans une formation dans le domaine
+            de l'informatique et j’ai appris pendant cette formation les bases de l'informatique
+            {' '}
+            et j’ai découvert le développement web. J’ai développé des compétences en HTML5, CSS3,
+            {' '}
+            PHP et JavaScript. Quand je suis arrivé en France, j'ai suivi le Parcours découverte
+            {' '}
+            des métiers du numérique au Grêta. J’ai travaillé mon projet professionnel et surtout
+            j’ai confirmé mon choix : devenir développeur web. J’ai décidé de suivre une formation
+            Intensive de 3 mois et demi Chez Webforce3 et une formation continue de 8 mois au sein
+            {' '}
+            du Grêta pour un Titre professionnel(CDA), dont 2 mois de stage. Donc Je souhaite
+            {' '}
+            continuer sur ma voie en suivant une formation chez Openclassrooms pour continuer
+            {' '}
+            à me former.
         </p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />

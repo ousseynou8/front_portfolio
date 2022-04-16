@@ -1,7 +1,7 @@
 .contact {
   height: 100vh !important;  
  justify-content:space-evenly !important;
- padding: 3.125em 6.25em !important;
+ padding: 3.125em 3em !important;
 }
 .contact a {
   text-decoration: none;
@@ -76,7 +76,7 @@ form{
 .form-control:focus + .form-control-placeholder,
 .form-control:valid + .form-control-placeholder {
   font-size: 75%;
-  transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -125%, 0);
   opacity: 1;
 }
 
@@ -131,6 +131,8 @@ button {
   color: white;
   font-weight: 500;
   cursor: pointer;
+  width: 100%;
+  border-radius:1rem 0 1rem 0;
 }
 
 @media screen and (max-width: 480px) {

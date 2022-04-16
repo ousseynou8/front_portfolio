@@ -60,9 +60,9 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact-right">
-          <p className="contact-desc">
+          <h1 className="contact-desc">
             Contactez-Moi.
-          </p>
+          </h1>
           <form ref={formRef} onSubmit={handleSubmit}>
             <div className="field">
               <input
