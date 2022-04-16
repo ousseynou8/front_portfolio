@@ -68,6 +68,7 @@ color: #426ca4;
 }
 
 .i-bg {
+  display: none;
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   background-color: #426ca4;
   width: 100%;

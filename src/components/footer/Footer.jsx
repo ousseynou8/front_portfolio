@@ -66,7 +66,10 @@ const Footer = () => {
         </div>
       </div> <div className="footer-copyright">
         <p className=""> 
-          &copy; Copyright | Ousseynou Fofana | Tous droits reservès        </p>
+
+ 
+
+          &copy; Copyright {(new Date().getFullYear())} | Ousseynou Fofana | Tous droits reservès        </p>
       </div>
 
     </div>
