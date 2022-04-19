@@ -34,8 +34,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">
-      <div className="contact-wrapper">
+    <div className="contact  ">
+  
+      <div className="contact-wrapper ">
+
+ 
         <div className="contact-left">
           <h1 className="contact-title">Discutons de votre projet</h1>
           <div className="contact-info">

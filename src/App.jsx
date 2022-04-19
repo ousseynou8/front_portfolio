@@ -1,7 +1,7 @@
 import './globals.css';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-//import About from './components/about/About';
+import About from './components/about/About';
 import Intro from './components/intro/Intro';
 import PortfolioItem from './components/portfolioItem/PortfolioItem';
  import Toggle from './components/toggle/Toggle';
@@ -17,7 +17,7 @@ const App = () => {
     }}>
 <Toggle />
       <Intro />
- {/* <About /> */}
+<About /> 
       <PortfolioItem />
       <Contact />
       <Footer />

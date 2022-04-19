@@ -86,7 +86,7 @@ input {
   display: block;
   width: 100%;
   border: none;
-  border-bottom: 2px solid #426ca4;
+  border-bottom: 2px solid #09f;
   transition: all 0.5s ease;
 }
 
@@ -94,13 +94,13 @@ input:focus ~ label,
 textarea:focus ~ label,
 input:valid ~ label {
   font-size: 14px;
-  color: #4285f4;
+  color: #09f;
 }
 
 input:focus,
 textarea:focus {
   outline: none !important;
-  color: #4285f4;
+  color: #09f;
 }
 
 label {
@@ -120,15 +120,15 @@ textarea {
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
-  border: 1px solid #426ca4;
+  border: 1px solid #09f;
   resize: none;
 }
 
 button {
   border: none;
   padding: 15px;
-  background-color: #426ca4;
-  color: white;
+  background-color: #09f;
+  color: white !important;
   font-weight: 500;
   cursor: pointer;
   width: 100%;
